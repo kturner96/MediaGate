@@ -4,7 +4,7 @@ import shutil
 
 def move_files():
     p = Path(download_dir)
-    target_files = list(p.glob('*.mp4'))
+    target_files = list(p.rglob('*.{[mM][pP]4,[mM][kK][vV]}'))
 
     moved_files_list = []
 
