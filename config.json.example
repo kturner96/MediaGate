@@ -1,0 +1,5 @@
+{
+  "webhook_url": "YOUR_DISCORD_WEBHOOK_URL_HERE",
+  "download_dir": "/path/to/your/downloads",
+  "movie_dir": "/path/to/your/plex/library/movies"
+}
