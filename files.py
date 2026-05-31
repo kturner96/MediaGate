@@ -1,9 +1,9 @@
 from pathlib import Path
-from configs import download_dir, movie_dir
+from configs import media_dir, movie_dir
 import shutil
 
 def move_files():
-    p = Path(download_dir)
+    p = Path(media_dir)
     target_files = list(p.rglob('*.{[mM][pP]4,[mM][kK][vV]}'))
 
     moved_files_list = []
